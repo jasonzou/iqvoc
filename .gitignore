@@ -9,7 +9,6 @@ tmp/*
 .DS_Store
 nbproject
 rerun.txt
-config/database.yml
 public/stylesheets/vendor
 public/javascripts/vendor
 public/images/vendor
@@ -18,5 +17,4 @@ public/fonts/vendor
 *.war
 vendor/gems/*.gem
 *.gem
-
-config/initializers/secret_token.rb
+config/database.yml
