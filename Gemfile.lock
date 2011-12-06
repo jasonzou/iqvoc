@@ -101,6 +101,7 @@ GEM
       net-ssh (>= 1.99.1)
     nokogiri (1.5.0)
     nokogiri (1.5.0-java)
+    pg (0.11.0)
     polyglot (0.3.2)
     rack (1.2.4)
     rack-mount (0.6.14)
@@ -165,6 +166,7 @@ DEPENDENCIES
   memory_test_fix
   mysql2 (= 0.2.7)
   nokogiri (= 1.5.0)
+  pg
   rails (= 3.0.10)
   rails_helpers_fix
   rvm

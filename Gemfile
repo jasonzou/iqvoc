@@ -61,6 +61,10 @@ group :test do
   gem 'turn'
 end
 
+group :heroku do
+  gem 'pg'
+end
+
 group :production, :production_internal do
   platforms :ruby do
     gem 'sqlite3'
