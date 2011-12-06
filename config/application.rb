@@ -77,7 +77,6 @@ module Iqvoc
     # blocked by the update... => Deadlock. You can avoid this by using the threaded
     # mode.
     config.virtuoso_sync_threaded = false
-    
-    config.secret_token = 'e31dccdf1caecf25fe01b7ef39e38787b2b21c5f3d5b74d9f44e56de699109141ab30206c07bc68948699618fe55c17b1338462ce7691c7559a65bfc69d929de'
+
   end
 end
